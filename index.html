@@ -259,7 +259,7 @@ footer a{color:var(--muted)}
 // XNAMAX XMATRIKX XSEKSYENX XKANDUNGANX XRAHSIAX XJUMLAHX XTONTONX XMASAX XKODX . Kosongkan jika tidak guna.
 const FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSeubwmLP1DqoKYdlr7Jq7l7ihmJS8LTyP6cfyZ4V2hTT15Tzw/viewform?usp=pp_url&entry.706206940=XNAMAX&entry.1217939834=XMATRIKX&entry.1212707806=XSEKSYENX&entry.233995021=XKANDUNGANX&entry.262532326=XRAHSIAX&entry.1718467588=XJUMLAHX&entry.286465277=XTONTONX&entry.1164080618=XMASAX&entry.123946962=XKODX";
 // Untuk guna YouTube (video "Unlisted"): letak pautan atau ID 11 aksara di antara tanda petikan. Kosongkan untuk guna video.mp4.
-const YT_ID = ytId("");
+const YT_ID = ytId("https://youtu.be/EoHGlSQmfmw");
 function ytId(s) { const m = String(s).match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m ? m[1] : /^[A-Za-z0-9_-]{11}$/.test(String(s).trim()) ? String(s).trim() : ""; }
 const SALT = "l7-sql-bm-2026-k9";
 const MIN_COVER = 0.96;       // peratus saat video yang mesti ditonton
